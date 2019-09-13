@@ -1,0 +1,116 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #4d4d4d;
+    font-size: 16px;
+    line-height: 1.62;
+}
+a, button {
+    transition: all .3s linear;
+}
+a {
+    color: #269de3;
+}
+a:hover {
+    color: #104362;
+    text-decoration: none;
+}
+.header-page-block {
+    border-bottom: 2px solid #eef0f1;
+}
+.header-row-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.header-logo, .footer-logo {
+     width: 300px;
+ }
+.header-logo img, .footer-logo img {
+    width: 90px;
+}
+.header-time {
+    display: flex;
+    align-items: center;
+    width: 253px;
+}
+.header-time i {
+    color: #269de3;
+    font-size: 40px;
+    margin-right: 10px;
+}
+.header-time-text {
+    font-size: 18px;
+}
+.header-btn button {
+    background-color: #269de3;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #269de3;
+    border-radius: 4px;
+    display: block;
+}
+.header-btn button:hover {
+    color: #269de3;
+    background-color: #fff;
+}
+.header-contact a {
+    color: #269de3;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+.header-contact {
+    text-align: right;
+}
+.navbar-default {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 0;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #269de3;
+    font-weight: bold;
+}
+.header-contact a:hover {
+    color: #104362;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #104362;
+}
+.owl-next {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.owl-prev {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chevron-background {
+    font-size: 55px;
+    color: #269de3;
+}
+.main-sub-title {
+    text-align: center;
+}
+.main-title {
+    text-align: center;
+    font-weight: bold;
+}
+@media (min-width: 768px) {
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}

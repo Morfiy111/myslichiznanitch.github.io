@@ -22,9 +22,10 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
+    flex-wrap: wrap;
 }
 .header-logo, .footer-logo {
-     width: 300px;
+     width: 100px;
  }
 .header-logo img, .footer-logo img {
     width: 90px;
@@ -112,5 +113,27 @@ a:hover {
         display: flex;
         justify-content: center;
         width: 100%;
+    }
+}
+@media(max-width: 991px) {
+    .header-contact {
+        text-align: left;
+    }
+    .header-logo {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .header-contact a {
+        font-size: 18px;
+    }
+    .header-time-text {
+        font-size: 16px;
+    }
+    .header-btn {
+        margin: 0 15px 15px 0;
+    }
+    .header-time {
+        margin-bottom: 15px;
     }
 }

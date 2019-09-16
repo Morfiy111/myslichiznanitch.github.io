@@ -228,6 +228,9 @@ button.close {
 .footer-links {
     margin-right: 20px;
 }
+.contact-block-flex a {
+    font-weight: bold;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;

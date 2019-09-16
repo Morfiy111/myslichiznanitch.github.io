@@ -108,6 +108,27 @@ a:hover {
     text-align: center;
     font-weight: bold;
 }
+.courses-img img {
+    width: 100%;
+}
+.courses-flex-block {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.courses-item {
+    width: 19%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #c8c8c8;
+}
+.courses-title {
+    text-align: center;
+    font-weight: bold;
+}
+.courses-img {
+    margin-bottom: 10px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;

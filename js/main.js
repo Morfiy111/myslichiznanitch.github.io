@@ -14,7 +14,7 @@ $('.play').on('click',function(){
 $('.stop').on('click',function(){
     owl.trigger('autoplay.stop.owl')
 })
-
+/*
 $(document).ready(function(){
     $(window).scroll(function () {
         if ($(this).scrollTop() > 50) {
@@ -38,4 +38,4 @@ $(document).ready(function(){
             top = $(id).offset().top;
         $('body,html').animate({scrollTop: top}, 1500);
     });
-});
+});*/

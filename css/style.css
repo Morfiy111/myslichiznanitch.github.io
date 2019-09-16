@@ -25,7 +25,7 @@ a:hover {
     flex-wrap: wrap;
 }
 .header-logo, .footer-logo {
-     width: 100px;
+     width: 185px;
  }
 .header-logo img, .footer-logo img {
     width: 90px;
@@ -34,6 +34,14 @@ a:hover {
     display: flex;
     align-items: center;
     width: 253px;
+}
+.header-logo span{
+    font-size: 20px;
+    font-weight: bold;
+}
+.header-logo a {
+    display: flex;
+    align-items: center;
 }
 .header-time i {
     color: #269de3;
@@ -58,7 +66,7 @@ a:hover {
 .header-contact a {
     color: #269de3;
     display: block;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
 }
 .header-contact {

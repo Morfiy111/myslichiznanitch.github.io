@@ -32,7 +32,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $(".navbar-nav a").on("click", function () {
+    $(".navbar-nav a, .footer-flex a").on("click", function () {
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;

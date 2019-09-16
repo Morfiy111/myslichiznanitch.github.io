@@ -243,6 +243,9 @@ button.close {
 .contact-sub-title {
     font-size: 18px;
 }
+blockquote {
+    font-size: 28px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;

@@ -114,7 +114,12 @@ a:hover {
     text-align: center;
     font-weight: bold;
     margin-bottom: 30px;
+}
+h1 {
     font-family: 'Lobster', cursive;
+}
+.image-consult {
+    margin-bottom: 20px;
 }
 .courses-img img {
     width: 100%;

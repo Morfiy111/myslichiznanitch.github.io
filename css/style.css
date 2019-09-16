@@ -250,6 +250,7 @@ button.close {
     }
     .header-logo {
         margin-bottom: 20px;
+        margin-right: 20px;
     }
     .footer-logo {
         margin-bottom: 20px;
@@ -286,5 +287,10 @@ button.close {
     .footer-logo {
         width: 100%;
         text-align: center;
+    }
+}
+@media (max-width: 410px) {
+    .header-logo a {
+        flex-direction: column;
     }
 }

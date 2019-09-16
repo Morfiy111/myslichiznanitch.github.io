@@ -246,6 +246,9 @@ button.close {
 blockquote {
     font-size: 28px;
 }
+.main-check-bottom {
+    margin-bottom: 60px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;

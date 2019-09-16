@@ -24,9 +24,6 @@ a:hover {
     padding: 15px 0;
     flex-wrap: wrap;
 }
-.header-logo, .footer-logo {
-     width: 185px;
- }
 .header-logo img, .footer-logo img {
     width: 90px;
 }
@@ -36,8 +33,9 @@ a:hover {
     width: 253px;
 }
 .header-logo span{
-    font-size: 20px;
+    font-size: 36px;
     font-weight: bold;
+    font-family: 'Lobster', cursive;
 }
 .header-logo a {
     display: flex;
@@ -116,6 +114,7 @@ a:hover {
     text-align: center;
     font-weight: bold;
     margin-bottom: 30px;
+    font-family: 'Lobster', cursive;
 }
 .courses-img img {
     width: 100%;
@@ -230,6 +229,13 @@ button.close {
 }
 .contact-block-flex a {
     font-weight: bold;
+}
+.contact-title-bold {
+    font-weight: bold;
+    font-size: 22px;
+}
+.contact-sub-title {
+    font-size: 18px;
 }
 @media (min-width: 768px) {
     .navbar-nav {

@@ -28,7 +28,7 @@ a:hover {
     width: 90px;
 }
 .header-logo img {
-    width: 250px;
+    width: 200px;
 }
 .header-logo {
     width: 30%;
@@ -105,6 +105,9 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.footer-links:last-child {
+    text-align: right;
 }
 .chevron-background {
     font-size: 55px;
@@ -250,6 +253,30 @@ blockquote {
 }
 .main-check-bottom {
     margin-bottom: 60px;
+}
+.main-flex-block {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.main-object-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+.main-title-object-block {
+    width: 50%;
+}
+.main-block-image {
+    width: 33%;
+}
+.main-block-image img {
+    width: 100%;
+}
+.main-block-flex-text {
+    font-size: 26px;
+    font-weight: bold;
 }
 @media (min-width: 768px) {
     .navbar-nav {

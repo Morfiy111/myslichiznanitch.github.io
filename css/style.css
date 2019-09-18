@@ -357,6 +357,9 @@ blockquote {
     .navbar-default .navbar-toggle {
         border-color: #269de3;
     }
+    .footer-links:last-child {
+        text-align: left;
+    }
 }
 @media(max-width: 600px) {
     .header-logo {
@@ -373,6 +376,9 @@ blockquote {
 }
 @media (max-width: 410px) {
     .header-logo a {
+        flex-direction: column;
+    }
+    .main-object-block {
         flex-direction: column;
     }
 }

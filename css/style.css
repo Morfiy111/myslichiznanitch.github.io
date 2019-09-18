@@ -285,19 +285,26 @@ blockquote {
         width: 100%;
     }
 }
+@media (max-width: 1199px) {
+    .header-logo img {
+        width: 150px;
+    }
+}
 @media(max-width: 991px) {
     .header-contact {
         text-align: left;
-    }
-    .header-logo {
-        margin-bottom: 20px;
-        margin-right: 20px;
     }
     .footer-logo {
         margin-bottom: 20px;
     }
     .courses-item {
         width: 32%;
+    }
+    .header-title-block {
+        width: 75%;
+    }
+    .header-logo {
+        width: 24%;
     }
 }
 @media (max-width: 767px) {
@@ -328,6 +335,40 @@ blockquote {
     .footer-logo {
         width: 100%;
         text-align: center;
+    }
+    .header-title-block h1 {
+        font-size: 50px;
+    }
+    .header-description {
+        font-size: 20px;
+    }
+    .main-flex-block {
+        flex-direction: column;
+    }
+    .main-title-object-block {
+        width: 100%;
+    }
+    .main-block-image {
+        width: 100%;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #269de3;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #269de3;
+    }
+}
+@media(max-width: 600px) {
+    .header-logo {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .header-row-flex {
+        flex-direction: column;
+    }
+    .header-title-block {
+        width: 100%;
     }
 }
 @media (max-width: 410px) {

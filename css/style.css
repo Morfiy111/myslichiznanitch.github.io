@@ -276,6 +276,12 @@ blockquote {
     font-size: 26px;
     font-weight: bold;
 }
+.image-olimpics img {
+    width: 100%;
+}
+.olimpic-margin {
+    margin: 40px 0;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;

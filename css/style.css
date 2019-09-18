@@ -40,6 +40,7 @@ a:hover {
     color: #ec1f24;
     font-size: 70px;
     margin-top: 0;
+    font-family: 'Lobster', cursive;
 }
 .header-description {
     font-size: 24px;
@@ -120,9 +121,6 @@ a:hover {
     text-align: center;
     font-weight: bold;
     margin-bottom: 30px;
-}
-h1 {
-    font-family: 'Lobster', cursive;
 }
 .image-consult {
     margin-bottom: 20px;

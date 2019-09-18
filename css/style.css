@@ -281,6 +281,12 @@ blockquote {
 }
 .olimpic-margin {
     margin: 40px 0;
+    text-align: center;
+    font-weight: bold;
+    color: #ec1f24;
+}
+.courses-item-big {
+    width: 24%;
 }
 @media (min-width: 768px) {
     .navbar-nav {
@@ -309,6 +315,9 @@ blockquote {
     }
     .header-logo {
         width: 24%;
+    }
+    .courses-item-big {
+        width: 48%;
     }
 }
 @media (max-width: 767px) {
@@ -376,6 +385,9 @@ blockquote {
     }
     .header-title-block {
         width: 100%;
+    }
+    .courses-item-big {
+        width:100%;
     }
 }
 @media (max-width: 410px) {

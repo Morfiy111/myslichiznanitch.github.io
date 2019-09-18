@@ -24,31 +24,33 @@ a:hover {
     padding: 15px 0;
     flex-wrap: wrap;
 }
-.header-logo img, .footer-logo img {
+.footer-logo img {
     width: 90px;
 }
-.header-time {
-    display: flex;
-    align-items: center;
-    width: 253px;
+.header-logo img {
+    width: 250px;
 }
-.header-logo span{
-    font-size: 50px;
-    font-weight: bold;
-    font-family: 'Lobster', cursive;
-    color: red;
+.header-logo {
+    width: 30%;
 }
-.header-logo a {
-    display: flex;
-    align-items: center;
+.header-title-block {
+    width: 70%;
 }
-.header-time i {
+.header-title-block h1 {
+    color: #ec1f24;
+    font-size: 70px;
+    margin-top: 0;
+}
+.header-description {
+    font-size: 24px;
+}
+.header-title-block {
+    text-align: center;
+}
+.header-slogan {
+    font-size: 24px;
     color: #269de3;
-    font-size: 40px;
-    margin-right: 10px;
-}
-.header-time-text {
-    font-size: 18px;
+    font-weight: bold;
 }
 .header-btn button {
     background-color: #269de3;
